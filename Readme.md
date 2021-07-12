@@ -19,15 +19,17 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+`261805` | Ayush  | LLR01, LLR02, LLR03, LLR04, LLR06, LLR07, LLR08   | 5      |  2   |5   |5     
+
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+| Serial No | Challenge | Solution |
+|-------|-----------|----------|
+| 1 | Working with 2D arrays | Learnt hoe to use pointer to point at a specific location in 2D array . Came to know 2D array is like a matrix for visualisation |
+| 2 | Accessing the data from array of struct | The data accessing in struct can't be done with unary operators directly. We need to use it with functions. |
+| 3 | Unit test cases for input as a pointer | Made an array of just one element and got the output checked with just that array. So pointer works properly 
+
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
