@@ -2,7 +2,7 @@ name: Code Quality - Static Code - Cppcheck
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
   
