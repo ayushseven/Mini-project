@@ -3,7 +3,7 @@ TEST_PROJ_NAME = test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/PMS_definitions.c\
+SRC = src/3_Implementation/PMS_definitions.c\
 PMS_main.c
 
 TEST_SRC = test/test_$(PROJ_NAME).c\
