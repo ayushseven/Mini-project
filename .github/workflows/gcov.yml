@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  Cover:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -25,6 +25,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install gcov 
       run: sudo apt -y install gcovr
+    - name: build
+      run: make -C 3_Implementation/
     - name: make coverage
       run: make -C 3_Implementation/ coverageCheck
     - name: GCov only
