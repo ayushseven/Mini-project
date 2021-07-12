@@ -1,4 +1,4 @@
-PROJ_NAME = pms
+PROJ_NAME = PMS
 TEST_PROJ_NAME = test_$(PROJ_NAME)
 
 BUILD_DIR = Build
