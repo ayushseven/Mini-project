@@ -17,7 +17,7 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-| L_01 | Entering the data | <li> Numer Plate: MH07KH1721 <li> Name: Kumar <li> Mobile Number: 9908238977 | Not Applicable | Not Applicable | Scenario based |
+| L_01 | Entering the data | <li> Numer Plate: UP32 FB 3960 <li> Name: bumar <li> Mobile Number: 990823555977 | Not Applicable | Not Applicable | Scenario based |
 | L_02 | Erasing the data | <li> Row: 1 <li> Column: 1 <li> Lot Number: 1  | Not Applicable | Not Applicable | Scenario based |
 | L_03| Status of the parking lot | Not Applicable | <li> Lot1: 99 <li> Lot2:100 <li> Lot3: 100 <li> Lot4: 100 | <li> Lot1: 99 <li> Lot2:100 <li> Lot3: 100 <li> Lot4: 100 | Scenario based |
 | L_04 | When Parking lot is full | Not Applicable | Parking facility is full | Parking facility is full | Boundary based |
