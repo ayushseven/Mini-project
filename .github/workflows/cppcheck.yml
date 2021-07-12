@@ -2,12 +2,14 @@ name: Code Quality - Static Code - Cppcheck
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
     branches: [ main ]
+  
+  workflow_dispatch:
 
 jobs:
-  cppcheck:
+  StaticCode:
 
     runs-on: ubuntu-latest
 
@@ -16,4 +18,4 @@ jobs:
     - name: Install cppcheck
       run: sudo apt -y install cppcheck
     - name: Run cppcheck
-      run: cppcheck 3_Implementation
+      run: cppcheck 3_Implementation/
