@@ -1,5 +1,5 @@
 # SDLC Activity Based Learning
-<img src="https://github.com/ayushseven/LTTS-MiniProject/blob/master/Images_Videos/26663.jpg" height="700">
+<img src= "https://thumbs.dreamstime.com/b/parking-lots-spaces-facilities-isometric-flowchart-indoor-outdoor-multilevel-structures-car-lift-pass-212156400.jpg">
 
 Visit [Pages for Report -optional](using github.io option)
 
