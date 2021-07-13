@@ -1,26 +1,22 @@
-name: Dynamic Memory Check - Valgrind
-
+name: CodeQuality Dynamic Code Analysis Valgrind
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
-
-  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
-  Valgrind:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: apt install dependency
-        run: |
-          sudo apt-get -y install valgrind
-          sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
-      - name: build
-        run: make -C 3_Implementation/
-      - name: make test
-        run: make test -C 3_Implementation/
-      - name: Valgrind
-        run: make leak -C 3_Implementation/
+    - uses: actions/checkout@v2
+    - name: apt install dependency
+      run: |
+        sudo apt-get -y install valgrind
+        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
+    - name: make test
+      run: |
+        make test -C 3_Implementation/
+        valgrind ./3_Implementation/build
